@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This is the title, as well as the link to the css file -->
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- This adds the Roboto font-family from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylefsheet' type='text/css'>
+
+</head>
+
+<body>
+    <h1>Mad Libs</h1>
+    <hr>
+
+    <h2>Mad Lib instructions</h2>
+    <p>Fill in all of the input boxes, then click the <em>"Mad Lib"</em> button.</p>
+
+    <ul>
+        <li>A Friend's Name: <input type="text" id="friendName"></li>
+        <li>Adjective: <input type="text" id="adj"></li>
+        <li>Plural Noun: <input type="text" id="plurNoun"></li>
+    </ul>
+
+    <p><button id="madLib">Mad Lib</button></p>
+    <hr>
+
+    <h2>Mad Lib Results</h2>
+
+    <p id="result">
+        <em>“Yesterday, _____ went shopping and bought some _____ _____."</em>
+    </p>
+
+    <!-- load js -->
+    <script src="script.js"></script>
+</body>
+
+</html>

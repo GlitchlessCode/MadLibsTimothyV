@@ -1,0 +1,62 @@
+html {
+    /* airplane background */
+    background: url("/img/pexels-arthur-brognoli-2260838.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    /* background square */
+    background: rgba(75, 101, 135, 0.534);
+    width: 550px;
+    padding: 50px 75px;
+    margin: 40px auto;
+    border-radius: 30px;
+
+    /* text */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(240, 229, 207);
+}
+
+/* header text */
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(247, 246, 242)
+}
+
+h1 {
+    font-size: 42px;
+    font-variant: small-caps;
+}
+
+/* list margins */
+li {
+    margin-bottom: 5px;
+}
+
+button {
+    /* button color */
+    background: rgb(200, 198, 198);
+    /* button shape */
+    padding: 5px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    /* cursor changes */
+    cursor: pointer;
+}
+
+/* harder horizontal rules */
+hr {
+    border: 1px solid black;
+}
+
+/* IDs */
+
+/* bottom paragraph */
+#result {
+    border: 1px solid rgb(247, 246, 242);
+    padding: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
